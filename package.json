@@ -1,0 +1,44 @@
+{
+  "name": "svelte-scrollable-card",
+  "svelte": "src/index.html",
+  "module": "index.mjs",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "rollup": "^1.12.3",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-node-resolve": "^5.0.0",
+    "rollup-plugin-scss": "^1.0.1",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^5.0.0",
+    "svelte": "^3.4.2"
+  },
+  "keywords": [
+    "svelte"
+  ],
+  "files": [
+    "src",
+    "index.mjs",
+    "index.js",
+    "index.mjs.css"
+  ],
+  "description": "Simple custom components for scrollable cards",
+  "version": "1.0.4",
+  "dependencies": {
+    "@material/fab": "^2.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/httpsOmkar/svelte-scrollable-component.git"
+  },
+  "author": "Omkar Yadav <httpsOmkar@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/httpsOmkar/svelte-scrollable-component/issues"
+  },
+  "homepage": "https://github.com/httpsOmkar/svelte-scrollable-component#readme"
+}
